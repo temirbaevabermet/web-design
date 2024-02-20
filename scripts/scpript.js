@@ -4,7 +4,7 @@ myHeading.textContent = "Hello World!";
 let myVariable = 'mmm';
 alert(myVariable);
 const imgElement = document.querySelector("img");
-const img1URL = "images/alatoo-logo.png";
+const img1URL = "images\alatoo-logo.png";
 const img2URL = "images\nature-scenery.jpg";
 function changePhoto(event){
     let current = imgElement.getAttribute("src");
